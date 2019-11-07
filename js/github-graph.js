@@ -1,0 +1,43 @@
+//jshint esversion: 6
+// When this script loads, scrape GitHub profile for contrib graph
+
+// Author: Karsten Rabe
+
+function getContribGraph() {
+    //Use proxy to avoid CORS issues
+    const proxy = 'https://urlreq.appspot.com/req?method=GET&url=';
+    const url = proxy + 'https://github.com/GeorgeSchlosser';
+    $.get({
+        url: url
+    }).then(function (data) {
+        appendContribs(data);
+    });
+}
+function appendContribs(data) {
+    let graph = data.substring(data.indexOf("graph-before-activity-overview") - 41, data.length);
+    graph = graph.substring(graph.indexOf(">") + 6, graph.indexOf("</svg>") + 6) + "</div>";
+    $("#github-graph").html("<a href='https://github.com/GeorgeSchlosser' target='_blank'>My GitHub contributions</a>" + graph);
+    $("#github-graph > div").addClass("col-md-12").addClass("col-lg-12").addClass("mx-auto");
+}
+
+// When document ready, put graph in 'github-graph' container
+
+$(document).ready(function () {
+    getContribGraph();
+    $("#expand-code").on("click", () => {
+        const but = $("#expand-code").html();
+        if (but === "Expand") {
+            $("#expand-code").html("Collapse");
+            $("#github-scraper-code").animate({
+                height: "toggle"
+            }, 500);
+        }
+        else {
+            $("#expand-code").html("Expand");
+            $("#github-scraper-code").animate({
+                height: "toggle"
+            }, 500);
+        }
+    });
+});
+

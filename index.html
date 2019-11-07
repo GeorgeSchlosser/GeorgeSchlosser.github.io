@@ -1,66 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>About George</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="my-style.css"/>
-    </head>
 
-    <body class="backgroundTheme">
-        
-        <nav class="navbar navbar-expand-sm margins mainBackground navbarCenter">
-            
-            <div class="container maxWidth">
-                <!--prevent namestacking? clear white border/fit navbar height-->
-                <div class="tealBackground whiteFont serif namePadding clearfix">George Schlosser</div>
-                <!--<div class="collapse navbar-collapse">-->
-                    <ul class="navbar-nav ml-auto justify-content-end greyFont sans">
-                        <li class="nav-item">
-                            <a href="index.html" class="navlink myNavItem myNavItemSpacing">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="portfolio.html" class="navlink myNavItem myNavItemSpacing">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="navlink myNavItemSpacing">Contact</a>
-                        </li>
-                    </ul>
-            </div> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        </nav>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest"> -->
 
-        <!--container width 960px, aligned w/ nameBox, teal&serif font, left justify 1row*1col,  -->
-        <div class="container maxWidth mainBackground containerTop">
-            <div class="row greyBottomBorder">
-                <div class="col">
-                    <h1 class="tealFont serif">About Me</h1>
-                </div>
-                <div class="col">
-                    <!--blank space-->
-                </div>
-            
+
+  <title>George Schlosser</title>
+
+  <!-- original front -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/ionicons.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/github.css" />
+</head>
+
+<body>
+
+  <div class="KW_progressContainer">
+    <div class="KW_progressBar">
+
+    </div>
+  </div>
+
+  <div class="page">
+    <nav id="colorlib-main-nav" role="navigation">
+      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+      <div class="js-fullheight colorlib-table">
+        <div class="img" style="background-image: url(images/side-image.jpg);"></div>
+        <div class="colorlib-table-cell js-fullheight">
+          <div class="row no-gutters">0
+            <div class="col-md-12 text-center">
+              <h1 class="mb-4"><a href="index.html" class="logo">George Schlosser</a></h1>
+              <ul>
+                <li class="active"><a href="index.html"><span>Home</span></a></li>
+                <li><a href="about.html"><span>Resume</span></a></li>
+                <li><a href="portfolio.html"><span>Portfolio</span></a></li>
+                <li><a href="contact.html"><span>Contact</span></a></li>
+              </ul>
             </div>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-            <div class="row rowTopPadding">
-                <!--grey top border,decrease image size, stretch text across, grey&sansFont-->
-                <div class="col">
-                    <img class="img-fluid headshot" src="assets/images/Portfolio-Headshot.jpg" alt="photo of George">
+    <div id="colorlib-page">
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="colorlib-navbar-brand">
+                <a class="colorlib-logo" href="index.html"><span class="logo-img"
+                    style="background-image: url(images/Profile-Pic-2019.jpg);"></span>George Schlosser</a>
+              </div>
+              <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="home-slider owl-carousel js-fullheight">
+        <div class="slider-item js-fullheight">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-center text-center justify-content-center"
+              data-scrollax-parent="true">
+              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                <p><a href="#" class="scroll">Hey! I'm</a></p>
+                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">George Schlosser</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-item js-fullheight">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-center text-center justify-content-center"
+              data-scrollax-parent="true">
+              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                <p><a href="#" class="scroll">I'm A</a></p>
+                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">Full Stack Web Developer
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END SLIDER -->
+
+      <section class="ftco-section about-section">
+        <div class="container">
+          <div class="row d-flex" data-scrollax-parent="true">
+            <div class="col-md-4 author-img solid" style="background-image: url(images/side-image.jpg);"
+              data-scrollax=" properties: { translateY: '-70%'}"></div>
+            <div class="col-md-2"></div>
+            <div class="col-md-6 wrap ftco-animate">
+              <div class="about-desc">
+                <h1 class="bold-text" style="z-index: -1;">About</h1>
+                <div class="p-5" style="z-index: 1;">
+                  <h2 class="mb-5">George Schlosser</h2>
+                  <p>I'm a pretty big nerd that can speak almost entirely in pop culture quotes. I've also seen more
+                    concerts than most people probably have in their whole lives, but working in a music venue gives me
+                    an advantage.
+                    <br> Born and raised in the Carolinas, I'm a freak and love hot weather, I get a little chilly at
+                    60&#8457;. The beach is my happy place. Speaking of which, I recently married the love of my life in
+                    Emerald Isle. We have two fur babies: a demonic cat and an angelic husky (because life is all about
+                    balance, right?). We look forward to seeing how our family will grow.
+                    <br> I am a critical thinker, problem solver, and avid learner. Plus, I'm a lifelong technophile. So
+                    when I decided to begin a new career, becoming a Web Developer was the clear choice.
+                    <br> Spending time with loved one's, tinkering with a computer, working on a creation, or grinding
+                    levels in an RPG are a few of the ways I kickback. However, I believe new experiences are what life
+                    is about and I don't shy away from them.
+                  </p>
+                  <p><a href="images/GeorgeSchlosser.pdf" download="resume" target="_">Witness My Resume</a></p>
+                  <ul class="ftco-footer-social list-unstyled mt-4">
+                    <li><a href="https://github.com/GeorgeSchlosser" target="_blank"><span
+                          class="icon-github"></span></a></li>
+                    <li><a href="https://www.linkedin.com/in/george-schlosser/" target="_blank"><span
+                          class="icon-linkedin"></span></a></li>
+                  </ul>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                <div class="col greyFont sans">
-                    <p>My full name is David George Schlosser, but please call me George. My goal as a Web Developer is to create aesthetically pleasing and simple to use websites that achieve goals. </p>
-                    <p>Although the majority of my professional background is in live performance production and positive interactions with my fellow Homo Sapiens, I am passionate about Computer Technology. Whether I am tinkering with my own machine or with your cloud-based, web application, I take pride in creating an optimally performing and personally pleasing system.</p>
-                </div>                   
-            </div> 
-        </div>  
-        
-        <footer class="footer tealTopBorder greyBackground whiteFont sans centerText">
-                Copyright &copy;
-        </footer>
+      <section class="ftco-section">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span>What I Do</span>
+              <h2>My Skills</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-layers"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">HTML/CSS</h3>
+                  <h3 class="heading">React</h3>
+                  <h3 class="heading">Responsive Design</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-gears"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">JavaScript</h3>
+                  <h3 class="heading">jQuery</h3>
+                  <h3 class="heading">JSON</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-code"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">Node</h3>
+                  <h3 class="heading">MySQL</h3>
+                  <h3 class="heading">MongoDB</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-     </body>
+      <section class="ftco-section">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span>Portfolio</span>
+              <h2>Look Upon My Works</h2>
+            </div>
+          </div>
+          <div class="row no-gutters">
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+              <a href="https://georgeschlosser.github.io/spider-click/" target="_blank" class="image d-flex justify-content-center align-items-center"
+                style="background-image: url('images/spider-click-demo-08.gif'); background-size: contain"
+                data-scrollax=" properties: { translateY: '-30%'}">
+                <div class="icon d-flex text-center justify-content-center align-items-center">
+                  <span class="icon-search"></span>
+                </div>
+              </a>
+              <div class="text">
+                <h4 class="subheading">React</h4>
+                <h2 class="heading"><a href="https://georgeschlosser.github.io/spider-click/"
+                    target="_blank">Spider-Click || Memory game themed after the worlds's favorite wall-crawler. </a>
+                </h2>
+                <p>
+                  Don't click the same Spidey twice.  See if you can web them all.
+                </p>
+                <p>
+                  <font color="white">This is my first app built in React!</font>
+                </p>
+                <p><a href="https://georgeschlosser.github.io/spider-click/" target="_blank">View Project</a></p>
+              </div>
+            </div>
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+              <a href="https://adventure-book-v2.herokuapp.com/" target="_blank" class="image order-2 d-flex justify-content-center align-items-center"
+                style="background-image: url('images/adventurebook-v2-demo-02.gif'); background-size: contain"
+                data-scrollax=" properties: { translateY: '-30%'}">
+                <div class="icon d-flex text-center justify-content-center align-items-center">
+                  <span class="icon-search"></span>
+                </div>
+              </a>
+              <div class="text order-1">
+                <h4 class="subheading">Full Stack MERN</h4>
+                <h2 class="heading"><a href="https://adventure-book-v2.herokuapp.com/"
+                    target="_blank">Adventure Book</a>
+                </h2>
+                <p>
+                  This app utilizes the MERN stack to allow users to become immersed into an     interactive story with possibilities to create their own.
+                </p>
+                <p>
+                  <font color="white">My group challenged ourselves for our final project. This is the outcome.</font>
+                </p>
+                <p><a href="https://adventure-book-v2.herokuapp.com/" target="_blank">View Project</a></p>
+              </div>
+            </div>
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+              <a href="https://github.com/GeorgeSchlosser/liri-node-app" target="_blank" class="image d-flex justify-content-center align-items-center"
+                style="background-image: url('images/liri-demo-01.gif'); background-size: contain"
+                data-scrollax=" properties: { translateY: '-30%'}">
+                <div class="icon d-flex text-center justify-content-center align-items-center">
+                  <span class="icon-search"></span>
+                </div>
+              </a>
+              <div class="text">
+                <h4 class="subheading">Node</h4>
+                <h2 class="heading"><a href="https://github.com/GeorgeSchlosser/liri-node-app" target="_blank">LIRI</a>
+                </h2>
+                <p>Looking for a concert, song, or movie?? This application inspired by Apple's SIRI uses Node, API's, and NPM to find an event for you.</p>
+                <p><a href="https://github.com/GeorgeSchlosser/liri-node-app" target="_blank">See How it Works</a></p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="statistics" data-dir="up" style='background: url(" img/parallax.jpg" );'
+        class="statistics-section text-white parallax parallax">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <h2>Look how far I've come!</h2>
+            </div>
+          </div>
+          <div class="row showcase text-center">
+            <div data-animate="fadeUp" class="row col-lg-12 col-md-12 mx-auto border border-gray-dark py-2
+            graph-before-activity-overview" id="github-graph">
+              <img src="img/Loading_icon.gif" alt="Github contributions loading..."
+                class="img-fluid mx-auto rounded d-block loading-img" />
+            </div>
+          </div>
+          <div class="row showcase bg-white">
+            <p class="text-dark">
+              <button id="expand-code" class="btn btn-secondary">Expand</button>&nbsp;
+              GitHub page scraper code
+            </p>
+            <pre id="github-scraper-code" style="display: none">
+        <code class="language-js">
+          function getContribGraph() {
+            //Use proxy to avoid CORS issues
+            const proxy = 'https://urlreq.appspot.com/req?method=GET&url=';
+            const url = proxy + 'https://github.com/GeorgeSchlosser';
+            $.get({
+              url: url
+            }).then(data => {
+              appendContribs(data);
+            });
+          }
+
+          function appendContribs(data) {
+            let graph = data.substring(data.indexOf("graph-before-activity-overview") - 41, data.length);
+            graph = graph.substring(graph.indexOf(">") + 6, graph.indexOf("&lt;/svg>") + 6) + "&lt;/div>";
+            $("#github-graph").html("&lt;a href='https://github.com/GeorgeSchlosser'>My GitHub contributions&lt;/a>" +graph);
+            $("#github-graph > div").addClass("col-md-12").addClass("col-lg-12").addClass("mx-auto");
+          }
+        </code>
+        </pre>
+          </div>
+        </div>
+        <div class="dark-mask"></div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+          <div class="row mb-5 justify-content-center">
+            <div class="col-md-5 text-center">
+              <div class="ftco-footer-widget mb-5">
+                <ul class="ftco-footer-social list-unstyled">
+                  <li class="ftco-animate"><a href="https://github.com/GeorgeSchlosser" target="_blank"><span
+                        class="icon-github"></span></a></li>
+                  <li class="ftco-animate"><a href="https://www.linkedin.com/in/george-schlosser/" target="_blank"><span
+                        class="icon-linkedin"></span></a></li>
+                  <!-- <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li> -->
+                </ul>
+              </div>
+              <div class="ftco-footer-widget">
+                <h5>“Where shall I go now? The net is vast and limitless.” <i>Ghost in the Shell</i>, 1996</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script> All rights reserved | Forged in <i
+                  class="icon-fire" aria-hidden="true" style="color: red;"></i> by <a
+                  href="https://github.com/GeorgeSchlosser" target="_blank" id="#">George Schlosser</a>
+                <!-- <span class="'copyright">This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></span> -->
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- LOADER -->
+      <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+          <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+          <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+            stroke="#F96D00" /></svg></div>
+
+    </div>
+
+  </div>
+
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+  <script src="js/github-graph.js"></script>
+  <script src="js/stars.js"></script>
+
+</body>
 
 </html>
+<!--REPLACE GREEN W/ #e2e3de-->
