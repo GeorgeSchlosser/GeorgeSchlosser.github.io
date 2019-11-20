@@ -7572,7 +7572,7 @@ header {
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
-    background: #fff;
+    background: #E54558;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
@@ -7583,7 +7583,7 @@ header {
       content: '';
       width: 40px;
       height: 2px;
-      background: #fff;
+      background: #E54558;
       position: absolute;
       left: 0;
       -webkit-transition: 0.2s;
