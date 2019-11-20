@@ -7341,7 +7341,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #E54558; }
+  color: #E6352D; }
   a:hover {
     text-decoration: none;
     color: #E54558; }
@@ -8150,8 +8150,7 @@ textarea.form-control {
       transform: translate(-50%, -50%); 
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;
-      transition: .3s all ease;
-      color: #e2e3de; }
+      transition: .3s all ease;}
     .ftco-footer-social li a span:hover {
       text-decoration: none;
       color: #fff; }
