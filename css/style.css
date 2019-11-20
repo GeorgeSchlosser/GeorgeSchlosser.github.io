@@ -7902,7 +7902,7 @@ header {
     right: 0;
     bottom: 0;
     font-weight: 700 !important;
-    color: rgba(255, 255, 255, 0.08);
+    color: rgba(243, 155, 136, 0.08);
     text-transform: uppercase; }
     @media (min-width: 992px) {
       .wrap .about-desc .bold-text {
