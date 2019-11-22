@@ -7271,12 +7271,12 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #dee2e6 !important; } }
 
 body {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: 'Doppio One', sans-serif;
   background: #121212;
   font-size: 18px;
   line-height: 1.8;
   font-weight: 400;
-  color: #8c8c8c;
+  color: #F39B88;
   position: relative; }
   body:after {
     position: fixed;
@@ -7332,7 +7332,7 @@ body {
     height: 100%;
     z-index: 99;
     max-width: 100%;
-    background-color: #e2e3de;
+    background-color: #E6352D;
     -webkit-transition: width .6s ease;
     -o-transition: width .6s ease;
     transition: width .6s ease; }
@@ -7341,15 +7341,15 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #e2e3de; }
+  color: #E6352D; }
   a:hover {
     text-decoration: none;
-    color: #e2e3de; }
+    color: #E54558; }
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
-  color: #fff;
+  color: #E54558;
   font-weight: 400; }
 
 .text-primary {
@@ -7532,7 +7532,7 @@ header {
     header .colorlib-navbar-brand .colorlib-logo {
       font-size: 20px;
       text-transform: uppercase;
-      color: #fff;
+      color: #E54558;
       font-weight: 400;
       letter-spacing: 5px;
       padding: 7px;
@@ -7572,7 +7572,7 @@ header {
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
-    background: #fff;
+    background: #E54558;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
@@ -7583,7 +7583,7 @@ header {
       content: '';
       width: 40px;
       height: 2px;
-      background: #fff;
+      background: #E54558;
       position: absolute;
       left: 0;
       -webkit-transition: 0.2s;
@@ -7746,7 +7746,7 @@ header {
           color: rgba(255, 255, 255, 0.08); }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
           font-size: 55px;
-          color: #fff;
+          color: #E54558;
           line-height: 1.2;
           font-weight: 700;
           text-transform: uppercase;
@@ -7762,7 +7762,7 @@ header {
           font-weight: 300;
           color: rgba(255, 255, 255, 0.8); }
           .owl-carousel.home-slider .slider-item .slider-text p a.scroll {
-            color: rgba(255, 255, 255, 0.6);
+            color: rgba(243, 155, 136, 1);
             font-weight: 400;
             text-transform: uppercase;
             letter-spacing: 4px; }
@@ -7902,7 +7902,7 @@ header {
     right: 0;
     bottom: 0;
     font-weight: 700 !important;
-    color: rgba(255, 255, 255, 0.08);
+    color: rgba(243, 155, 136, 0.08);
     text-transform: uppercase; }
     @media (min-width: 992px) {
       .wrap .about-desc .bold-text {
@@ -8150,8 +8150,7 @@ textarea.form-control {
       transform: translate(-50%, -50%); 
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;
-      transition: .3s all ease;
-      color: #e2e3de; }
+      transition: .3s all ease;}
     .ftco-footer-social li a span:hover {
       text-decoration: none;
       color: #fff; }
